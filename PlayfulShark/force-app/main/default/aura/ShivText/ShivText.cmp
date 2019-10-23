@@ -1,0 +1,25 @@
+<aura:component >
+    <lightning:layout>
+        <lightning:layoutItem padding="around-small">
+            <div class="c-container">
+                <lightning:layout horizontalAlign="space">
+                    <lightning:layoutItem padding="around-small">
+                        <lightning:input name="input1" label="Enter some text" />
+                    </lightning:layoutItem>
+                    <lightning:layoutItem padding="around-small">
+                        <lightning:input name="input2" label="Text field with predefined value" value="initial value"/>
+                    </lightning:layoutItem>
+                </lightning:layout>
+                
+                <lightning:layout horizontalAlign="space">
+                    <lightning:layoutItem padding="around-small">
+                        <lightning:input name="input1" label="Enter some text" />
+                    </lightning:layoutItem>
+                    <lightning:layoutItem padding="around-small">
+                        <lightning:input name="input2" label="Text field with predefined value" value="initial value"/>
+                    </lightning:layoutItem>
+                </lightning:layout>
+            </div>
+        </lightning:layoutItem>
+    </lightning:layout>
+</aura:component>
